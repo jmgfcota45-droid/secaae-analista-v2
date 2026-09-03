@@ -1,0 +1,39 @@
+{
+  "version": "2.0",
+  "regra": "Os 6 primeiros caracteres da NE CCor, quando numéricos, correspondem ao código da UG.",
+  "observacao": "NEs iniciadas pelo ano, como 2025NE000729, não possuem UG no prefixo e não devem ser transformadas em 202500.",
+  "tabelas": [
+    {
+      "table_schema": "main",
+      "table_name": "dashboard_autonomia__empenhos_x_contratos_x_liquidac",
+      "column_name": "ne_ccor"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "p_trab_2025_controle_por_dor_executado",
+      "column_name": "ne_ccor"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "plano_de_trabalho_2026_executado",
+      "column_name": "ne_ccor"
+    }
+  ],
+  "ugs_conhecidas": {
+    "110794": "SECAAE — Secretaria Executiva/Operação Acolhida",
+    "110407": "DEORF — Departamento de Planej, Orç e Finanças (MD)",
+    "110404": "Departamento de Administração e de Pessoal"
+  },
+  "distribuicao": [
+    {
+      "codigo_ug": "110794",
+      "tabela": "plano_de_trabalho_2026_executado",
+      "registros": 432
+    },
+    {
+      "codigo_ug": "110794",
+      "tabela": "p_trab_2025_controle_por_dor_executado",
+      "registros": 4
+    }
+  ]
+}

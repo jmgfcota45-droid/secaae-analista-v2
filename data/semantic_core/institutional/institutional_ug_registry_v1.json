@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "ugs": {
+    "110794": {
+      "nome": "SECRETARIA EXECUTIVA/OPERACAO ACOLHIDA",
+      "nome_normalizado": "SECRETARIA EXECUTIVA/OPERACAO ACOLHIDA",
+      "sigla": "SECAAE",
+      "orgao": "MINISTERIO DA DEFESA",
+      "observacao": "UG executora da SECAAE"
+    },
+    "110407": {
+      "nome": "DEPARTAMENTO DE PLANEJ, ORC E FINANCAS (MD)",
+      "nome_normalizado": "DEPARTAMENTO DE PLANEJ, ORC E FINANCAS (MD)",
+      "sigla": "DEORF",
+      "orgao": "MINISTERIO DA DEFESA",
+      "observacao": "UG da DEORF"
+    },
+    "110404": {
+      "nome": "DEPARTAMENTO DE ADMINISTRACAO E DE PESSOAL",
+      "nome_normalizado": "DEPARTAMENTO DE ADMINISTRACAO E DE PESSOAL",
+      "sigla": null,
+      "orgao": "MINISTERIO DA DEFESA",
+      "observacao": "UG do Departamento de Administração e de Pessoal"
+    }
+  },
+  "orgaos_orcamentarios": {
+    "52000": "MINISTERIO DA DEFESA",
+    "52121": "COMANDO DO EXERCITO",
+    "52111": "COMANDO DA AERONAUTICA",
+    "52131": "COMANDO DA MARINHA"
+  },
+  "regra_ne_ccor": "Quando os 6 primeiros caracteres da NE CCor forem numéricos, eles representam a UG.",
+  "regra_organizacional": "UG Executora e Órgão UGE são campos textuais e não devem ser confundidos com o código da UG."
+}

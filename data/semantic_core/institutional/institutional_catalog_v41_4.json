@@ -1,0 +1,127 @@
+{
+  "version": "41.4",
+  "gerado_em": "2026-08-09T13:47:43.937476",
+  "ano_corrente": 2026,
+  "ugs": {
+    "110794": {
+      "codigo_ug": "110794",
+      "ug_executora": "SECRETARIA EXECUTIVA/OPERACAO ACOLHIDA",
+      "sigla": "SECAAE",
+      "orgao_uge": "MINISTERIO DA DEFESA",
+      "forca": null,
+      "tipo": "UG_EXECUTORA",
+      "status": "ATIVA",
+      "confianca": "ALTA",
+      "fonte": [
+        "informacao institucional confirmada pelo usuario",
+        "prefixo da NE CCor"
+      ]
+    },
+    "110407": {
+      "codigo_ug": "110407",
+      "ug_executora": "DEPARTAMENTO DE PLANEJ, ORC E FINANCAS (MD)",
+      "sigla": "DEORF",
+      "orgao_uge": "MINISTERIO DA DEFESA",
+      "forca": null,
+      "tipo": "UG_ORCAMENTARIA",
+      "status": "ATIVA",
+      "confianca": "ALTA",
+      "fonte": [
+        "informacao institucional confirmada pelo usuario"
+      ]
+    },
+    "110404": {
+      "codigo_ug": "110404",
+      "ug_executora": "DEPARTAMENTO DE ADMINISTRACAO E DE PESSOAL",
+      "sigla": null,
+      "orgao_uge": "MINISTERIO DA DEFESA",
+      "forca": null,
+      "tipo": "UG_ORCAMENTARIA",
+      "status": "ATIVA",
+      "confianca": "ALTA",
+      "fonte": [
+        "informacao institucional confirmada pelo usuario"
+      ]
+    }
+  },
+  "orgaos": {
+    "52000": {
+      "codigo": "52000",
+      "nome": "MINISTERIO DA DEFESA",
+      "sigla": "MD",
+      "forca": null,
+      "tipo": "ORGAO"
+    },
+    "52121": {
+      "codigo": "52121",
+      "nome": "COMANDO DO EXERCITO",
+      "sigla": "EB",
+      "forca": "EXERCITO",
+      "tipo": "ORGAO_FORCA"
+    },
+    "52111": {
+      "codigo": "52111",
+      "nome": "COMANDO DA AERONAUTICA",
+      "sigla": "FAB",
+      "forca": "AERONAUTICA",
+      "tipo": "ORGAO_FORCA"
+    },
+    "52131": {
+      "codigo": "52131",
+      "nome": "COMANDO DA MARINHA",
+      "sigla": "MB",
+      "forca": "MARINHA",
+      "tipo": "ORGAO_FORCA"
+    }
+  },
+  "regras_exercicio": {
+    "regra_geral": "Ano anterior a 2026 representa restos a pagar quando a base indicar execução de exercício anterior.",
+    "RPNP": "Restos a Pagar Não Processados.",
+    "RPP": "Restos a Pagar Processados.",
+    "anos_anteriores": [
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "observacao": "O exercício 2025 e anteriores não devem ser interpretados como exercício corrente."
+  },
+  "regra_ne_ccor": {
+    "campo": "NE CCor",
+    "tipo": "COLUNA",
+    "nao_e_tabela": true,
+    "regra_ug": "Quando os seis primeiros caracteres da NE CCor forem numéricos, eles representam o código da UG.",
+    "exemplo_valido": "11079400012026NE000016",
+    "ug_exemplo": "110794",
+    "exemplo_nao_aplicavel": "2025NE000725",
+    "resultado_exemplo_nao_aplicavel": null,
+    "observacao": "Não remover caracteres antes da extração. Apenas testar os seis primeiros caracteres."
+  },
+  "prioridade_institucional": [
+    {
+      "ordem": 1,
+      "fonte": "CAMPO_EXPLICITO_DA_BASE",
+      "confianca": "MUITO_ALTA"
+    },
+    {
+      "ordem": 2,
+      "fonte": "NE_CCOR_PREFIXO_UG",
+      "confianca": "ALTA"
+    },
+    {
+      "ordem": 3,
+      "fonte": "REGISTRO_INSTITUCIONAL_CONFIRMADO",
+      "confianca": "ALTA"
+    },
+    {
+      "ordem": 4,
+      "fonte": "ORGAO_ORCAMENTARIO",
+      "confianca": "ALTA"
+    },
+    {
+      "ordem": 5,
+      "fonte": "INFERENCIA",
+      "confianca": "BAIXA"
+    }
+  ]
+}

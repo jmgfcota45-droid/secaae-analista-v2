@@ -1,0 +1,4 @@
+﻿codigo_ug,ug_executora,sigla,orgao_uge,forca,tipo,status,confianca,fonte
+110794,SECRETARIA EXECUTIVA/OPERACAO ACOLHIDA,SECAAE,MINISTERIO DA DEFESA,,UG_EXECUTORA,ATIVA,ALTA,"['informacao institucional confirmada pelo usuario', 'prefixo da NE CCor']"
+110407,"DEPARTAMENTO DE PLANEJ, ORC E FINANCAS (MD)",DEORF,MINISTERIO DA DEFESA,,UG_ORCAMENTARIA,ATIVA,ALTA,['informacao institucional confirmada pelo usuario']
+110404,DEPARTAMENTO DE ADMINISTRACAO E DE PESSOAL,,MINISTERIO DA DEFESA,,UG_ORCAMENTARIA,ATIVA,ALTA,['informacao institucional confirmada pelo usuario']

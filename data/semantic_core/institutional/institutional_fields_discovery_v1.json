@@ -1,0 +1,171 @@
+{
+  "version": "41.3H",
+  "ug_executora": [
+    {
+      "table_schema": "main",
+      "table_name": "controle_das_notas_de_credito_credito_recebido",
+      "column_name": "ug_executora",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "ugexecutora"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "credito_recebido_credito_recebido",
+      "column_name": "ug_executora",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "ugexecutora"
+    }
+  ],
+  "orgao_uge": [
+    {
+      "table_schema": "main",
+      "table_name": "metas_de_empenho_e_liquidacao_meta_de_empenho_consolidada",
+      "column_name": "orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 1,
+      "normalizada": "orgao"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "metas_de_empenho_e_liquidacao_meta_de_liquidacao_consolidada",
+      "column_name": "orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 1,
+      "normalizada": "orgao"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "p_trab_2025_controle_por_dor_dor",
+      "column_name": "orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "orgao"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "plano_de_trabalho_2026_dor",
+      "column_name": "orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "orgao"
+    }
+  ],
+  "ug_ampla": [
+    {
+      "table_schema": "main",
+      "table_name": "controle_das_notas_de_credito_credito_recebido",
+      "column_name": "ug_executora",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "ugexecutora"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "credito_recebido_credito_recebido",
+      "column_name": "ug_executora",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "ugexecutora"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "dados_do_sss_novo_sss_recebido",
+      "column_name": "emitente_ug",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "emitenteug"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "fab__notas_de_credito_emitidas",
+      "column_name": "emitente_ug",
+      "data_type": "VARCHAR",
+      "ordinal_position": 3,
+      "normalizada": "emitenteug"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "notas_de_credito_emitidas_notas_de_credito_emitidas",
+      "column_name": "emitente_ug",
+      "data_type": "VARCHAR",
+      "ordinal_position": 3,
+      "normalizada": "emitenteug"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "p_trab_2025_controle_por_dor_p_trab_2025_apresentacao",
+      "column_name": "ug",
+      "data_type": "VARCHAR",
+      "ordinal_position": 3,
+      "normalizada": "ug"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "p_trab_2025_controle_por_dor_p_trab_2025_controle_gnd_4",
+      "column_name": "descentralizado_para_uge",
+      "data_type": "VARCHAR",
+      "ordinal_position": 8,
+      "normalizada": "descentralizadoparauge"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "sss_recebido_sss_recebido",
+      "column_name": "emitente_ug",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "emitenteug"
+    }
+  ],
+  "orgao_amplo": [
+    {
+      "table_schema": "main",
+      "table_name": "fab__notas_de_credito_emitidas",
+      "column_name": "emitente_orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "emitenteorgao"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "metas_de_empenho_e_liquidacao_meta_de_empenho_consolidada",
+      "column_name": "orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 1,
+      "normalizada": "orgao"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "metas_de_empenho_e_liquidacao_meta_de_liquidacao_consolidada",
+      "column_name": "orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 1,
+      "normalizada": "orgao"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "notas_de_credito_emitidas_notas_de_credito_emitidas",
+      "column_name": "emitente_orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "emitenteorgao"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "p_trab_2025_controle_por_dor_dor",
+      "column_name": "orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "orgao"
+    },
+    {
+      "table_schema": "main",
+      "table_name": "plano_de_trabalho_2026_dor",
+      "column_name": "orgao",
+      "data_type": "VARCHAR",
+      "ordinal_position": 2,
+      "normalizada": "orgao"
+    }
+  ]
+}
